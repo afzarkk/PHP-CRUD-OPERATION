@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("images/bgimgage.jpg");
+  background-size: cover;
+  background-position: center;
+}
+div {
+  background-color: navajowhite;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+}
+h1 {
+  text-align: center;
+}
+td {
+  padding: 5px;
+}
+
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+}
+
+[type="submit"]:hover,
+[type="reset"]:hover {
+  background-color: red;
+} 
+
+

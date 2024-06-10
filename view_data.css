@@ -1,0 +1,80 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.button {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: red;
+}
+
+
+.pagination {
+    /* display: inline-block; */
+    margin: 20px 0;
+    /* padding: 0; */
+}
+
+.pagination a {
+    color: #007bff;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+/* Pagination links on hover */
+.pagination a:hover {
+    background-color: #ddd;
+}
+
+/* Active/current page link */
+.pagination a.active {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+}
+
+/* Disable selection of pagination text */
+.pagination a {
+    user-select: none; /* For all modern browsers */
+    -webkit-user-select: none; /* For Safari */
+    -moz-user-select: none; /* For Firefox */
+    -ms-user-select: none; /* For Internet Explorer/Edge */
+}
+
+/* Left arrow and right arrow */
+.pagination a[rel="prev"], .pagination a[rel="next"] {
+    font-weight: bold;
+    padding: 8px 16px;
+}
+
+/* Clear floats after pagination */
+.pagination::after {
+    content: "";
+    display: table;
+    clear: both;
+}
